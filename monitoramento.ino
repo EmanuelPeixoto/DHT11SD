@@ -2,8 +2,8 @@
 #include<ESP8266WebServer.h> //Biblioteca para o ESP funcionar como servidor
 #include <DHT.h> //Biblioteca para funcionamento do sensor de temperatura e umidade DHT11
 
-const char* ssid = "chourico";  // Rede WiFi
-const char* password = "chourico@20";  //Senha da Rede WiFi
+const char* ssid = "SSID";  // Rede WiFi
+const char* password = "PASSWORD";  //Senha da Rede WiFi
 
 ESP8266WebServer server(80); //server na porta 80
 
